@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Increasing Brainpower</string>
+    <string name="title">Way 2 on How 2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">next</string>
+
+    <string-array name="Titles">
+        <item> Breath Deep </item>
+        <item>Meditate</item>
+        <item>Sit Up Straight</item>
+        <item>Phosphotidyl Serine</item>
+        <item> Develop your intuition</item>
+        <item>Employ your subconscious while you sleep</item>
+        <item>Vinpocetine</item>
+        <item>Rosemary</item>
+        <item>Gingko Biloba</item>
+        <item>Potential Brain Foods</item>
+        <item>Huperzine A</item>
+        <item>Listen to Mozart</item>
+        <item> Alpha-Lipoic Acid</item>
+        <item>Ask Questions</item>
+        <item>Make a Brainpower Plan</item>
+
+
+    </string-array>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>
