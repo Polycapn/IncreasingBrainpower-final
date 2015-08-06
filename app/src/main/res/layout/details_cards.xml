@@ -4,7 +4,9 @@
     android:id="@+id/main_detailscontent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true">
+    android:fitsSystemWindows="true"
+    android:background="@color/windowBackgroundColor">
+
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
@@ -35,11 +37,12 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                app:layout_collapseMode="pin"
-                android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+                app:layout_collapseMode="pin" />
 
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
+
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -48,12 +51,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="@color/windowBackgroundColor">
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/card_margin">
+                android:layout_margin="10dp"
+                android:background="#FFFF">
 
                 <LinearLayout
                     style="@style/Widget.CardContent"
@@ -63,27 +68,16 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Develop Your Intuition"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                        android:text="Intuition"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/primaryTextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Intuition can be an important part of brainpower.
-    Einstein and others have relied heavily on their intuitive hunches.
-    Quiet your mind and listen. Take time each day to experience silence.
-    Practice calming your mind by using whatever breathing or meditative technique you prefer.
-    Let go of the inclination to think, or analyze, and try to know everything. Be open and listen.
-    Let your thoughts roam and be open to the ideas and solutions that come to you.
-    When you listen to your intuition it connects you with a greater knowledge.
-    It usually communicates through symbols, feelings and emotions.
-    Learn to trust your hunches and gut feelings.
-    If something doesn't feel right  chances are it isn't.
-    What may be right for one person could be totally wrong for you.
-    How many times have you had that feeling in your stomach compelling you to do, or not do, something for no apparent reason?
-    Listening to it probably helped you avoid a traffic accident, or led you to be at the right place and time for getting that great job, or meeting that special person.
-    Your intuition is your inner guide, so learn to trust it.
-    At first, trusting it may be a bit scary, but allow it the opportunity to develop." />
+                        android:text="Intuition can be an important part of brainpower.Einstein and others have relied heavily on their intuitive hunches.Quiet your mind and listen. Take time each day to experience silence.Practice calming your mind by using whatever breathing or meditative technique you prefer.Let go of the inclination to think, or analyze, and try to know everything. Be open and listen.Let your thoughts roam and be open to the ideas and solutions that come to you.When you listen to your intuition it connects you with a greater knowledge.It usually communicates through symbols, feelings and emotions.Learn to trust your hunches and gut feelings.If something doesn't feel right  chances are it isn't.What may be right for one person could be totally wrong for you.How many times have you had that feeling in your stomach compelling you to do, or not do, something for no apparent reason?Listening to it probably helped you avoid a traffic accident, or led you to be at the right place and time for getting that great job, or meeting that special person.Your intuition is your inner guide, so learn to trust it.At first, trusting it may be a bit scary, but allow it the opportunity to develop."
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="17sp"/>
 
                 </LinearLayout>
 

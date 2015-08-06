@@ -138,6 +138,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MyViewHolder> 
         public void onClick(View view) {
             view.getContext().startActivity(new Intent(view.getContext(), DetailsActivity.class));
 
+
         }
     }
 
